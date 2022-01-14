@@ -1,0 +1,35 @@
+* {
+    box-sizing: border-box;
+}
+html { 
+    /* 10px = 62.5% */
+    font-size: 62.5%; 
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.5;
+    color: white;
+}
+
+
+
+/* light  */
+.light-bgr {
+    background: rgb(3,3,86);
+background: linear-gradient(0deg, rgba(3,3,86,1) 0%, rgba(88,228,237,1) 93%);
+}
+.light-bgr-app {
+    background: black !important;
+}
+.light-item {
+    background: white;
+    right: 0;
+    transition: 2 linear all;
+}
+.app-light {
+    background-image: url('../img/bgr/Sun.png');
+}
+.text-shadow {
+    text-shadow: 3px 3px rgb(0 0 0 / 40%);
+}
+.input-light {
+    background: rgba(20, 20, 20, 0.4);
+}

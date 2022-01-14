@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./assets/icon/font awesome/fontawesome-free-5.15.4-web/css/all.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">  
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="stylesheet" href="./assets/css/base.css">
+
+</head>
+<body>
+    <div class="main">
+        
+        <div class="app">
+            <div class="mode">
+                <div class="button-mode">
+                    <div class="button-mode-item  "></div>
+                    <div class="text-mode">Dark Mode</div>
+                </div>
+                
+            </div>
+            <div class="input">
+                <input style="margin-bottom: 8px;" type="text" placeholder="Nhập tên thành phố " class="input-item city-name">
+                <!-- <input type="text" placeholder="Nhập tên châu lục" class="input-item continents"> -->
+            </div>
+            <!-- <button  class="button-find">Tra cứu</button> -->
+            <div class="info">
+                <span class="city"></span>
+                <span>,</span>
+                <span class="country"></span>
+            </div>
+            <div class="time"></div>
+            <div class="temperature">
+                <span class="temperature-number"></span>
+                <sup class="temperature-icon">o</sup>
+                <span style="font-size: 5rem;">C</span>
+            </div>
+            <div class="text-status"></div>
+            <div class="description">
+                <div class="wind description-item">
+                    <i class="fas fa-wind description-icon"></i>
+                    <div class="wind-text description-text">(m/s)</div>
+                </div>
+                <div class="cloud description-item">
+                    <i class="fas fa-cloud-sun description-icon"></i>
+                    <div class="cloud-text description-text"> (%)</div>
+                </div>
+                <div class="humidity description-item">
+                    <i class="fas fa-tint"></i>
+                    <div class="humidity-text description-text"> (%)</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="./assets/js/main.js"></script>
+</body>
+</html>

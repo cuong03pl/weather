@@ -1,0 +1,125 @@
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: rgb(3,3,86);
+    background: linear-gradient(0deg, rgba(3,3,86,1) 100%, rgba(2,203,244,1) 100%);
+}
+    .app {
+        background-image: url('../img/bgr/Blood.png');
+        background-position: center;
+        background-size: contain;
+        background-repeat: no-repeat;
+        height: 602px;
+        width: 340px;
+        text-align: center;
+        padding:20px 20px;
+        border-radius: 16px;
+
+    }
+        .input {
+            margin-bottom: 24px;
+            margin-top: 12px;
+        }
+            .input-item {
+                background: rgba(255, 255, 255, 0.4);
+                outline: none;
+                border: none;
+                width: 100%;
+                padding: 12px 8px;
+                font-size: 2rem;
+                border-radius: 12px 0 12px 0;
+                color: black;
+            }
+            .input-item::placeholder {
+                color: #ccc;
+            }
+        .button-find {
+            font-size: 1.6rem;
+            padding: 8px 24px;
+            margin-bottom: 24px;
+            border: none;
+            border-radius: 4px;
+        }
+        .info {
+            font-size: 3.5rem;
+        }
+            .city {
+                
+            }
+            .country {
+                
+            }
+        .time {
+            font-size: 1.5rem;
+        }
+        .temperature {
+            padding-top: 32px;
+            
+        }
+            .temperature-number {
+                font-size: 5rem;
+            }
+            .temperature-icon {
+                font-size: 3.5rem;
+            }
+        .text-status {
+            font-size: 4rem;
+           
+            padding-top: 42px;
+        }
+        .description {
+            display: flex;
+            justify-content: center;
+            padding-top: 48px;
+            font-size: 1.6rem;
+        }
+            
+            .cloud {
+                padding: 0 48px;
+            }
+
+
+
+
+
+
+
+
+            
+/* che do sang toi  */
+
+
+.mode {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-bottom: 30px;
+}
+
+.button-mode {
+    background: white;
+    width: 60px;
+    height: 24px;
+    border-radius: 16px;
+    position: relative;
+    
+
+}
+.button-mode-item {
+    background: black;
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    position: absolute;
+    
+
+}
+.text-mode {
+    top: 24px;
+    text-align: center;
+    position: absolute;
+    width: 100%;
+
+}
